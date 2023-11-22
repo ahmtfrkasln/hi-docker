@@ -2,6 +2,7 @@
 Dockerised basic spring boot and angular app
 
 Spring: 
+
 1- Via maven clean the package and create jar file
 *\Spring\demo> mvn clean package
 
@@ -12,6 +13,7 @@ Spring:
 *> docker run -d -p 8082:8080 springdockerapp
 
 Angular: 
+
 1- In the angular project directory, via Dockerfile generate docker image. All of the configurations are in the Dockerfile.
 *\Angular\docker-demo> docker build -t hi-docker .
 
